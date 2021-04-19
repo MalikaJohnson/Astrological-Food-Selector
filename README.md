@@ -83,16 +83,16 @@ Time frames are also key in the development cycle.  You have limited time to cod
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Pseudocode Javascript | H | 1 hr| hrs | hrs |
+| Pseudocode Javascript | H | 2.5 hr| hrs | hrs |
 | HTML and Javascript Structure| H | 3 hrs| hrs | hrs |
-| Add/test axios API call| H | 1 hr| hrs | hrs |
-| Adding clickable buttons and Event Listeners | H | 1.5 hrs| hrs | hrs |
-| Incorporating Flexbox | H | 2 hrs| hrs | hrs |
-| Styling page with CSS | H | 2 hrs| hrs | hrs |
+| Add/test axios API call| H | 2.5 hr| hrs | hrs |
+| Adding clickable buttons and Event Listeners | H | 2.5 hrs| hrs | hrs |
+| Incorporating Flexbox | H | 3 hrs| hrs | hrs |
+| Styling page with CSS | H | 3 hrs| hrs | hrs |
 | Pulling Appropriate data from API | H | 3 hrs| hrs | hrs |
 | Setting and Styling Media Queries | H | 3 hrs| hrs | hrs |
 | Styling Background Image| H | 3 hrs| hrs | hrs |
-| Total | H | 6hrs| 5hrs | 5hrs |
+| Total | H |  30 hrs| hrs | hrs |
 
 ## Code Snippet
 
