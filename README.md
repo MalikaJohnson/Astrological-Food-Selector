@@ -1,13 +1,10 @@
- Astrological Food Selector
- 
-
-## Project Name
+ ## Astrological Food Selector
 
 The name of your project with deployed URL.
 
 ## Project Description
 
-This fun website will take the users zodiac sign and use it to pick out an entree that would be best suited for him/her. The recipe will also be attached/ link in order for the user to be able to access it if they decided they like their outcome.
+This fun website will take the users zodiac sign and use it to pick out an entree that would be best suited for him/her based on said zodiac sign. The recipe will also be attached/linked, in order for the user to be able to access it if they decided they liked their outcome.
 
 ## API and Data Sample
 
@@ -46,26 +43,23 @@ Upload images of your wireframes to an image hosting site or add them to an asse
 
 ### MVP/PostMVP
 
-The functionality will then be divided into two separate lists: MPV and PostMVP.  Carefully decided what is placed into your MVP as the client will expect this functionality to be implemented upon project completion.  
+### MVP
 
-#### MVP 
-*These are examples only. Replace with your own MVP features.*
+- Find and incorporate a food api  
+- Render astrological data to the page within a dropdown menu
+- Build layout using HTML and Javascript
+- Style page using Flexbox and CSS
+- Add a breakpoint/media query to implement responsive design for a mobile device
 
-- Find and use external api 
-- Render data on page 
-- Allow user to choose favorites 
 
 #### PostMVP  
-*These are examples only. Replace with your own Post-MVP features.*
 
-- Add second API
-- Use local storage to save user favorites
+- Add second round of food to randomize the option for each astrological sign 
+- Add animations
+
 
 ## Project Schedule
 
-This schedule will be used to keep track of your progress throughout the week and align with our expectations.  
-
-You are **responsible** for scheduling time with your squad to seek approval for each deliverable by the end of the corresponding day, excluding `Saturday` and `Sunday`.
 
 |  Day | Deliverable | Status
 |---|---| ---|
@@ -89,8 +83,15 @@ Time frames are also key in the development cycle.  You have limited time to cod
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Adding Form | H | 3hrs| 3.5hrs | 3.5hrs |
-| Working with API | H | 3hrs| 2.5hrs | 2.5hrs |
+| Pseudocode Javascript | H | 1 hr| hrs | hrs |
+| HTML and Javascript Structure| H | 3 hrs| hrs | hrs |
+| Add/test axios API call| H | 1 hr| hrs | hrs |
+| Adding clickable buttons and Event Listeners | H | 1.5 hrs| hrs | hrs |
+| Incorporating Flexbox | H | 2 hrs| hrs | hrs |
+| Styling page with CSS | H | 2 hrs| hrs | hrs |
+| Pulling Appropriate data from API | H | 3 hrs| hrs | hrs |
+| Setting and Styling Media Queries | H | 3 hrs| hrs | hrs |
+| Styling Background Image| H | 3 hrs| hrs | hrs |
 | Total | H | 6hrs| 5hrs | 5hrs |
 
 ## Code Snippet
