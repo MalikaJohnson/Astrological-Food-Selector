@@ -1,5 +1,5 @@
 //  Add HTML and connect all files (check-mate)
-//  Create Dynamic drop down menu for Astrological signs
+//  Create Dynamic drop down menu for Astrological signs (check-mate)
 //  Write event handler 
 //  Button that removes astrological/food  data
 //  Append astrological blurb to the DOM
