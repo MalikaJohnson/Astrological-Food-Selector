@@ -1,4 +1,4 @@
- ## Astrological Food Selector
+ ## Astrological Foodie
 
 The name of your project with deployed URL.
 
