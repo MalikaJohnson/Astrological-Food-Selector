@@ -39,7 +39,7 @@ https://spoonacular.com/food-api
 
 ## Wireframes
 
-Upload images of your wireframes to an image hosting site or add them to an assets folder in your repo and link them here with a description of each specific wireframe.
+https://whimsical.com/astrofoodie-J5KMjQ1fMGYQEVdJmxXXnJ@2Ux7TurymNCH1EJSmjBe
 
 ### MVP/PostMVP
 
