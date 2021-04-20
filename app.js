@@ -7,7 +7,15 @@
 const foodIds = {
   "aries": 642372,
   "taurus": 631750,
-  "gemini": 
+  "gemini": 636360,
+  "cancer": 640279,
+  "leo": 659677,
+  "virgo": 644965,
+  "libra": 663357,
+  "scorpio": 631756,
+  "sag": 663144,
+  "cap": 652687,
+  "aquarius": 716381,
  "pisces": 1095994,
 
 }
