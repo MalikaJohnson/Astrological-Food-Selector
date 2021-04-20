@@ -80,7 +80,7 @@ https://www.figma.com/file/Tzm5yMXuLEeAF1bd6WWnpO/Astrological-Foodie?node-id=0%
 | --- | :---: |  :---: | :---: | :---: |
 | Pseudocode Javascript | H | 3 hr| 2hrs | 2hrs |
 | HTML and Javascript Structure| H | 6 hrs| hrs | hrs |
-| Add/test axios API call| H | 3 hrs| 4hrs |4 3hrs |
+| Add/test axios API call| H | 3 hrs| 4hrs | 4hrs |
 | Adding clickable buttons and Event Listeners | H | 3 hrs| hrs | hrs |
 | Incorporating Flexbox | H | 3 hrs| hrs | hrs |
 | Styling page with CSS | H | 5 hrs| hrs | hrs |
