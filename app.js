@@ -16,6 +16,7 @@ searchBtn.addEventListener("click", getAll)
 
 
 async function getAll() {
+  removeFood()
   const foodBtn = document.querySelector('.foodBtn').value
   const url = `https://api.spoonacular.com/recipes/${foodBtn}/information?includeNutrition=false&apiKey=${API_KEY}`
     try {
@@ -31,6 +32,7 @@ async function getAll() {
 
 }
 // getAll()
+// removeFood()
 
 const addFood = (food) => {
   // data.forEach((food) => {
@@ -49,10 +51,16 @@ const addFood = (food) => {
   // })
 
 }
+// remove previous search
+function removeFood() {
+  const removeAddFood = document.querySelector(".foodData")
+  while (removeAddFood.lastChild) {
+    removeAddFood.removeChild(removeAddFood.lastChild)
+  }
+    
+}
 
-
-
-
+// removeFood()
 
 
 
