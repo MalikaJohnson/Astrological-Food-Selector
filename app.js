@@ -24,12 +24,18 @@ const DOMAIN = 'https://spoonacular.com/recipes/';
 const API_KEY = "1b80ef314c9144b099e149272c37d2a1"
 const BASE_URL = `${DOMAIN}?apikey=${API_KEY}&`;
 
-// "id": 1095994
+
+const searchBtn = document.querySelector("#search")
+searchBtn.addEventListener("click", getAll)
+
+
 async function getAll() {
   const url = `https://api.spoonacular.com/recipes/${foodIds.aries}/information?includeNutrition=false&apiKey=${API_KEY}`
     try {
       const response = await axios.get(url)
       console.log(response.data)
+      addFood(response.data.search)
+      return response
 
   }
   catch (error) {
@@ -39,11 +45,24 @@ async function getAll() {
 }
 getAll()
 
-function addFood() {
-  
+const addFood = (data) => {
+  data.forEach((food) => {
+    const foodTitle = document.createElement("h3")
+    foodTitle.innerText = food.Title
+    document.querySelector(".foodData").append(foodTitle)
+
+    const foodImage = document.createElement("img")
+    foodImage.src = food.Image
+    document.querySelector(".foodData").append(foodImage)
+
+    const foodSourceUrl = document.createElement("h4")
+    foodSourceUrl.innerText = food.SourceUrl
+    document.querySelector(".foodData").append(foodSourceUrl)
+  })
 
 }
-//  Create Dynamic drop down menu for Astrological signs
+
+
 
 
 
