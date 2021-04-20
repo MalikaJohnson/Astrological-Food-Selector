@@ -7,14 +7,14 @@
 const foodIds = {
   "aries": 642372,
   "taurus": 631750,
-  "gemini": 636360,
+  "gemini": 649030,
   "cancer": 640279,
   "leo": 659677,
   "virgo": 644965,
   "libra": 663357,
   "scorpio": 631756,
   "sag": 663144,
-  "cap": 652687,
+  "cap": 636360,
   "aquarius": 716381,
  "pisces": 1095994,
 
@@ -26,7 +26,7 @@ const BASE_URL = `${DOMAIN}?apikey=${API_KEY}&`;
 
 // "id": 1095994
 async function getAll() {
-  const url = `https://api.spoonacular.com/recipes/${foodIds.pisces}/information?includeNutrition=false&apiKey=${API_KEY}`
+  const url = `https://api.spoonacular.com/recipes/${foodIds.aries}/information?includeNutrition=false&apiKey=${API_KEY}`
     try {
       const response = await axios.get(url)
       console.log(response.data)
