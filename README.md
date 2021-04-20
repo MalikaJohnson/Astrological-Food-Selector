@@ -63,10 +63,10 @@ https://whimsical.com/astrofoodie-J5KMjQ1fMGYQEVdJmxXXnJ@2Ux7TurymNCH1EJSmjBe
 
 |  Day | Deliverable | Status
 |---|---| ---|
-|April 16-18| Prompt / Wireframes / Priority Matrix / Timeframes | Incomplete
-|April 19| Project Approval | Incomplete
+|April 16-18| Prompt / Wireframes / Priority Matrix / Timeframes | Complete
+|April 19| Project Approval/Psuedocode | Complete
 |April 20| Core Application Structure (HTML, CSS, etc.) | Incomplete
-|April 20| Pseudocode / actual code | Incomplete
+|April 20| Actual code | Incomplete
 |April 21| Initial Clickable Model  | Incomplete
 |April 22| MVP | Incomplete
 |April 23| Presentations | Incomplete
@@ -78,9 +78,9 @@ https://www.figma.com/file/Tzm5yMXuLEeAF1bd6WWnpO/Astrological-Foodie?node-id=0%
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Pseudocode Javascript | H | 3 hr| hrs | hrs |
+| Pseudocode Javascript | H | 3 hr| 2hrs | 2hrs |
 | HTML and Javascript Structure| H | 6 hrs| hrs | hrs |
-| Add/test axios API call| H | 3 hrs| hrs | hrs |
+| Add/test axios API call| H | 3 hrs| 4hrs | 4hrs |
 | Adding clickable buttons and Event Listeners | H | 3 hrs| hrs | hrs |
 | Incorporating Flexbox | H | 3 hrs| hrs | hrs |
 | Styling page with CSS | H | 5 hrs| hrs | hrs |
