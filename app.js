@@ -9,7 +9,11 @@
 const DOMAIN = 'https://spoonacular.com/recipes/';
 const API_KEY = "1b80ef314c9144b099e149272c37d2a1"
 const BASE_URL = `${DOMAIN}?apikey=${API_KEY}&`;
+const zodiacExplain = {
+  642372: "this is aries",
+  659677: "this is leo",
 
+}
 
 const searchBtn = document.querySelector("#search")
 searchBtn.addEventListener("click", getAll)
@@ -22,7 +26,13 @@ async function getAll() {
     try {
       const response = await axios.get(url)
       console.log(response.data)
-      addFood(response.data)
+      const selectedOption = document.querySelector(".foodBtn").selectedOptions[0]
+
+      const foodIndex = selectedOption.dataset.index
+      const sign = response.data[foodIndex]
+
+
+      addFood(response.data, sign)
       return response
 
   }
@@ -34,8 +44,13 @@ async function getAll() {
 // getAll()
 // removeFood()
 
-const addFood = (food) => {
-  // data.forEach((food) => {
+const addFood = (food, sign) => {
+  const explination = zodiacExplain[sign]
+  const foodText = document.createElement('p')
+  console.log(foodExplain.foodIndex)
+  foodText.innerText = explination
+  document.querySelector('.foodData').append(foodText)
+
     const foodTitle = document.createElement("h3")
     foodTitle.innerText = food.title
     console.log(food.title)
@@ -51,6 +66,7 @@ const addFood = (food) => {
   // })
 
 }
+
 // remove previous search
 function removeFood() {
   const removeAddFood = document.querySelector(".foodData")
