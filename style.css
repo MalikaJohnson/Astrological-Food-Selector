@@ -53,15 +53,19 @@ img {
 body {
   text-align: center;
 }
+a.link {
+  margin-left: 70px;
+  text-align: center;
+}
 
 .intro {
-  font-style: Garamond,helvetica,sans-serif;
+  font-family: 'Mukta', sans-serif;
   font-size: 20px;
   padding-top: 50px;
   
 }
 p {
-  font-style: Garamond,helvetica,sans-serif;
+  font-family: 'Mukta', sans-serif;
   font-size: 20px;
 }
 form {
@@ -84,4 +88,8 @@ button {
 .foodData {
   border-radius: 40px;
   border-color: rgb(75, 126, 75);
+}
+
+@media only screen and (max-width: 600px) {
+  
 }

@@ -70,6 +70,12 @@ async function getAll() {
   }
 
 }
+function getValue(e) {
+  e.preventDefault()
+  const optionValue = document.querySelector('.foodBtn').value
+  getAll(optionValue)
+  return optionValue
+}
 
 const addFood = (food, sign) => {
   const foodContainer = document.querySelector('.foodData')
@@ -86,7 +92,7 @@ const addFood = (food, sign) => {
     <p class="description">${signDes.description}</p>   
     <h3 class="food-title">${food.title}</h3>
     <img class="food-img" src="${food.image}"/>
-    <a class="link" href="${food.sourceUrl}"></a>
+    <a class="link" target="_blank" href="${food.sourceUrl}">Click me for Recipe</a>
     </div>
   `
   foodContainer.insertAdjacentHTML("beforeend",foodInfo)
