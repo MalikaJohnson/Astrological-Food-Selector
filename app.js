@@ -50,12 +50,13 @@ const foodExplain = [
   },
 ]
 
-const searchBtn = document.querySelector("#search")
-searchBtn.addEventListener("click", getAll)
+const searchBtn = document.querySelector("form")
+searchBtn.addEventListener("submit", getAll)
 
 
-async function getAll() {
-  removeFood()
+async function getAll(e) {
+  e.preventDefault();
+  removeFood();
   const foodBtn = document.querySelector('.foodBtn').value
   const url = `https://api.spoonacular.com/recipes/${foodBtn}/information?includeNutrition=false&apiKey=${API_KEY}`
     try {
@@ -70,12 +71,7 @@ async function getAll() {
   }
 
 }
-function getValue(e) {
-  e.preventDefault()
-  const optionValue = document.querySelector('.foodBtn').value
-  getAll(optionValue)
-  return optionValue
-}
+
 
 const addFood = (food, sign) => {
   const foodContainer = document.querySelector('.foodData')

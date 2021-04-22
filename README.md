@@ -65,10 +65,10 @@ https://whimsical.com/astrofoodie-J5KMjQ1fMGYQEVdJmxXXnJ@2Ux7TurymNCH1EJSmjBe
 |---|---| ---|
 |April 16-18| Prompt / Wireframes / Priority Matrix / Timeframes | Complete
 |April 19| Project Approval/Psuedocode | Complete
-|April 20| Core Application Structure (HTML, CSS, etc.) | Incomplete
-|April 20| Actual code | Incomplete
-|April 21| Initial Clickable Model  | Incomplete
-|April 22| MVP | Incomplete
+|April 20| Core Application Structure (HTML, CSS, etc.) | Complete
+|April 20| Actual code | Complete
+|April 21| Initial Clickable Model  | Complete
+|April 22| MVP | Complete
 |April 23| Presentations | Incomplete
 
 ## Priority Matrix
@@ -79,25 +79,28 @@ https://www.figma.com/file/Tzm5yMXuLEeAF1bd6WWnpO/Astrological-Foodie?node-id=0%
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
 | Pseudocode Javascript | H | 3 hr| 2hrs | 2hrs |
-| HTML and Javascript Structure| H | 6 hrs| 9 hrs | 9 hrs |
+| HTML and Javascript Structure| H | 6 hrs| 10 hrs | 10 hrs |
 | Add/test axios API call| H | 3 hrs| 4 hrs | 4 hrs |
 | Adding clickable buttons and Event Listeners | H | 3 hrs| 3hrs | 3hrs |
-| Incorporating Flexbox | H | 3 hrs| hrs | hrs |
-| Styling page with CSS | H | 5 hrs| hrs | hrs |
+| Incorporating Flexbox | H | 3 hrs| 3hrs | 3hrs |
+| Styling page with CSS | H | 5 hrs| 6hrs | 6hrs |
 | Pulling Appropriate data from API | H | 4 hrs| 5 hrs | 5 hrs |
-| Setting and Styling Media Queries | H | 3 hrs| hrs | hrs |
-| Styling Background Image| H | 3 hrs| hrs | hrs |
-| Total | H | 33 hrs| hrs | hrs |
+| Setting and Styling Media Queries | H | 3 hrs| 1 hrs | 1 hrs |
+| Styling Background Image| H | 3 hrs| 1hrs | 1hrs |
+| Total | H | 33 hrs| 36 hrs | 36 hrs |
 
 ## Code Snippet
 
-Use this section to include a brief code snippet of functionality that you are proud of and a brief description.  
+This is the code where I was able to render my own data/ descriptions that tied together the food api to each astrological sign. Out of all the code this one was the most challenging because not only did we not go over how todo this, I had to create and append data for all 12 signs in the right order in conjunction to the api and try to keep it dynamic as well. 
 
 ```
-function reverse(string) {
-	// here is the code to reverse a string of text
-}
+const signDes = foodExplain.find((sign) => {
+    console.log(sign.id)
+    console.log(foodBtn)
+    return sign.id === foodBtn
+  }) 
+
 ```
 
 ## Change Log
- Use this section to document what changes were made and the reasoning behind those changes.  
+ I ended up changing my drop down menu to better be able to append the data to each selection. The first one was cuter but the second was way more functional.  

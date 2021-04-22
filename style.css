@@ -1,4 +1,3 @@
-
 /*    --------------------- Drop-Down Menu/ Button --------------------- */
 
 html {
@@ -6,8 +5,8 @@ html {
 }
 
 h1 {
-  background-color:tomato;
-  font-family: 'Poiret One', cursive;
+  background-color: tomato;
+  font-family: "Poiret One", cursive;
   font-weight: 250px;
   letter-spacing: 4px;
   height: 90px;
@@ -15,24 +14,19 @@ h1 {
   display: flex;
   justify-content: center;
   border: 3px solid rgb(8, 8, 8);
-  box-shadow: 5px 10px 5px rgb(80, 80, 80)
-
+  box-shadow: 5px 10px 5px rgb(80, 80, 80);
 }
-
 
 h3 {
   color: tomato;
-  font-family: 'Poiret One', cursive;
+  font-family: "Poiret One", cursive;
   font-weight: 700px;
   font-size: 25px;
   font-style: italic;
   padding-top: 60px;
   padding-bottom: 50px;
-  
-
 }
 .img1 {
-
   margin-right: 20px;
   margin-top: 50px;
   margin-bottom: 50px;
@@ -54,18 +48,23 @@ body {
   text-align: center;
 }
 a.link {
-  margin-left: 70px;
-  text-align: center;
+  text-decoration: none;
+  color: tomato;
+  display: block;
+  margin-bottom: 50px;
+}
+
+a:hover {
+  color: rgb(75, 126, 75);
 }
 
 .intro {
-  font-family: 'Mukta', sans-serif;
+  font-family: "Mukta", sans-serif;
   font-size: 20px;
   padding-top: 50px;
-  
 }
 p {
-  font-family: 'Mukta', sans-serif;
+  font-family: "Mukta", sans-serif;
   font-size: 20px;
 }
 form {
@@ -77,13 +76,11 @@ button {
   font-weight: bold;
   border-radius: 30%;
   font-size: 15px;
-  color:rgb(75, 126, 75);
-
+  color: rgb(75, 126, 75);
 }
- hr {
+hr {
   margin-bottom: 50px;
-  
- }
+}
 
 .foodData {
   border-radius: 40px;
@@ -91,5 +88,16 @@ button {
 }
 
 @media only screen and (max-width: 600px) {
-  
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+  h1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  p {
+    font-size: 10px;
+  }
 }
