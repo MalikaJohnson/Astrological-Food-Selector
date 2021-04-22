@@ -34,7 +34,19 @@ const foodExplain = [
     id: "631814", description:"So you're a Libra... Libra is obsessed with symmetry and strives to create equilibrium in all areas of life. Libras adore high art, intellectualism, and connoisseurship. Suave libras need to surround themselves with stunning objects and create environments that reflect their exquisite tastes. Thats why a high value burger so appropriately named the $50,000 burger seems like a well suited choice for this sign."
   },
   {
-    id: "632026", description:"So you're a Scorpio... Life is a game of chess for these calculating water signs, who are constantly plotting several steps ahead in order to orchestrate an eventual checkmate. Scorpion energy is ambitious, enticing, and their enigmatic nature is what makes them so seductive and beguiling. That is why the surprisingly rich flavor of Ahi tuna that you will not find in any other fish, is the perfect choice for this sign."
+    id: "632021", description:"So you're a Scorpio... Life is a game of chess for these calculating water signs, who are constantly plotting several steps ahead in order to orchestrate an eventual checkmate. Scorpion energy is ambitious, enticing, and their enigmatic nature is what makes them so seductive and beguiling. That is why the surprisingly rich flavor of Ahi Tuna that you will not find in any other fish, is the perfect choice for this sign."
+  },
+  {
+    id: "663144", description:"So you're a Sagittarius... Sagittarius launches its many pursuits like blazing arrows, chasing after geographical, intellectual, and spiritual adventures. Fueled by wanderlust, these archers can be found traversing all corners of the world on thrill-seeking expeditions. A dish that itself is worldly in nature, is the perfect pair for such a worldly and possibly well traveled sign."
+  },
+  {
+    id: "636360", description:"So you're a Capricorn... Capricorns tap into their inner fortitude to overcome whatever stands between them and their long-term goals and they don’t let anything distract them from getting ahead. Capricorns are excellent at taking action and launching initiatives, and their can-do attitude leads to success in pretty much any industry. A Carbonara that is rich yet challenging to make due to fact that its sauce has to be a smooth and creamy consistency, made up of egg yolk, seems like a match made in heaven for this sign."
+  },
+  {
+    id: "716381", description:"So you're a Aquarius... Aquarians are big thinkers, and sometimes can forget their immediate surroundings. These revolutionary thinkers fervently support “power to the people,” aspiring to change the world through radical social progress. Every Aquarian is a rebel at heart, this sign despises authority and anything that represents conventionality. Free-spirited and eccentric, a dish comprised of snails is extremely on brand with this noncomformist sign."
+  },
+  {
+    id: "1095994", description:"So you're a Pisces... Pisces are the most empathetic and compassionate creatures of the astrological wheel. With such immense sensitivity, Pisces can easily become swallowed by emotions and must remember to stay grounded. Pisces love exploring their boundless imaginations, and due to their heads being in the clouds, can earn a reputation for being flaky or delusional. This rose-colored glasses wearing sign would absolutley get lost in a steamy and hearty bowl of pho."
   },
 ]
 

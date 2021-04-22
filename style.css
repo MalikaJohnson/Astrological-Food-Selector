@@ -1,11 +1,57 @@
 
 /*    --------------------- Drop-Down Menu/ Button --------------------- */
 
+html {
+  
+}
 
+h1 {
+  background-color:rgb(71, 14, 146);
+  height: 90px;
+  display: flex;
+  justify-content: center;
+}
+.img1 {
+  width:350px;
+  height: 355px;
+  
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.img2 {
+  width: 350px;
+  height: 355px;
+  
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
 
+.img3 {
+  width: 350px;
+  height: 355px;
+  
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
 
+h3 {
+  color:rgb(71, 14, 146);
+}
 
-
+.girl {
+  padding-bottom: 70px;
+  padding-top: 50px;
+}
 body {
   text-align: center;
 }
+
+p {
+  font-style: ;
+  font-size: 20px;
+  
+
+}
+
+
+
