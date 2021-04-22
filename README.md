@@ -79,9 +79,9 @@ https://www.figma.com/file/Tzm5yMXuLEeAF1bd6WWnpO/Astrological-Foodie?node-id=0%
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
 | Pseudocode Javascript | H | 3 hr| 2hrs | 2hrs |
-| HTML and Javascript Structure| H | 6 hrs| 6 hrs | 6 hrs |
+| HTML and Javascript Structure| H | 6 hrs| 9 hrs | 9 hrs |
 | Add/test axios API call| H | 3 hrs| 4 hrs | 4 hrs |
-| Adding clickable buttons and Event Listeners | H | 3 hrs| hrs | hrs |
+| Adding clickable buttons and Event Listeners | H | 3 hrs| 3hrs | 3hrs |
 | Incorporating Flexbox | H | 3 hrs| hrs | hrs |
 | Styling page with CSS | H | 5 hrs| hrs | hrs |
 | Pulling Appropriate data from API | H | 4 hrs| 5 hrs | 5 hrs |
