@@ -61,7 +61,8 @@ a:hover {
 .intro {
   font-family: "Mukta", sans-serif;
   font-size: 20px;
-  padding-top: 50px;
+  margin-top: 120px;
+  margin-bottom: 50px;
 }
 p {
   font-family: "Mukta", sans-serif;
