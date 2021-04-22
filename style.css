@@ -77,14 +77,16 @@ button {
   border-radius: 30%;
   font-size: 15px;
   color: rgb(75, 126, 75);
+  border: 3px solid rgb(8, 8, 8);
+  box-shadow: 5px 10px 5px rgb(80, 80, 80);
 }
 hr {
   margin-bottom: 50px;
 }
 
-.foodData {
-  border-radius: 40px;
-  border-color: rgb(75, 126, 75);
+.foodBtn {
+  border: 3px solid rgb(8, 8, 8);
+  box-shadow: 5px 10px 5px rgb(80, 80, 80);
 }
 
 @media only screen and (max-width: 600px) {
@@ -98,6 +100,6 @@ hr {
     align-items: center;
   }
   p {
-    font-size: 10px;
+    font-size: 14px;
   }
 }

@@ -72,7 +72,6 @@ async function getAll(e) {
 
 }
 
-
 const addFood = (food, sign) => {
   const foodContainer = document.querySelector('.foodData')
   const foodBtn = document.querySelector('.foodBtn').value
