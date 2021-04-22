@@ -6,41 +6,27 @@ html {
 }
 
 h1 {
-  background-color:rgb(71, 14, 146);
+  background-color:tomato;
   height: 90px;
+  padding-top: 40px;
   display: flex;
   justify-content: center;
 }
-.img1 {
-  width:350px;
-  height: 355px;
-  
-  padding-top: 60px;
-  padding-bottom: 60px;
-}
-.img2 {
-  width: 350px;
-  height: 355px;
-  
-  padding-top: 60px;
-  padding-bottom: 60px;
-}
 
-.img3 {
-  width: 350px;
-  height: 355px;
-  
-  padding-top: 60px;
-  padding-bottom: 60px;
-}
 
 h3 {
-  color:rgb(71, 14, 146);
+  color:tomato;
+}
+.img1 {
+
+  padding-right: 20px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
-.girl {
-  padding-bottom: 70px;
-  padding-top: 50px;
+.img2 {
+  padding-bottom: 50px;
+  
 }
 body {
   text-align: center;
@@ -53,5 +39,7 @@ p {
 
 }
 
-
-
+.foodData {
+  border-radius: 40px;
+  border-color: rgb(133, 221, 133);
+}

@@ -82,17 +82,16 @@ const addFood = (food, sign) => {
   }) 
 
   const foodInfo = `
-    <p>${signDes.description}</p>   
-    <h3>${food.title}</h3>
-    <img src="${food.image}"/>
-    <a href="${food.sourceUrl}"></a>
+    <div class="card">
+    <p class="description">${signDes.description}</p>   
+    <h3 class="food-title">${food.title}</h3>
+    <img class="food-img" src="${food.image}"/>
+    <a class="link" href="${food.sourceUrl}"></a>
+    </div>
   `
   foodContainer.insertAdjacentHTML("beforeend",foodInfo)
-  
-
 }
 
-// remove previous search
 function removeFood() {
   const removeAddFood = document.querySelector(".foodData")
   while (removeAddFood.lastChild) {
