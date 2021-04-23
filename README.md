@@ -1,6 +1,6 @@
  ## Astrological Foodie
 
-The name of your project with deployed URL.
+https://malikajohnson.github.io/Astrological-Food-Selector/
 
 ## Project Description
 
